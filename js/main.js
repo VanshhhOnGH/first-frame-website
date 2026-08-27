@@ -60,21 +60,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const portfolioData = {
     'cosmetic': {
       title: 'UGC Cosmetic Skincare Ad',
-      brand: 'Lumene Glow',
+      brand: 'Elinor',
       stats: '2.3M+ Views | 8.7% CTR | 3.1x ROAS',
       type: 'AI UGC Avatar + Voice',
       videoSrc: 'assets/faceproduct.mp4'
     },
     'perfume': {
-      title: 'Cinematic Luxury Perfume Commercial',
-      brand: 'Aura Noir',
+      title: 'Cinematic vaseline Commercial',
+      brand: 'Vaseline',
       stats: '1.8M+ Views | 7.2% CTR | 2.6x ROAS',
       type: '3D Hyper-realistic Motion',
       videoSrc: 'assets/vaseline.mp4'
     },
     'supplement': {
-      title: 'High-Energy UGC Supplement Ad',
-      brand: 'AlphaFit Nutrition',
+      title: 'High-Energy UGC protein Ad',
+      brand: 'Maxprotein',
       stats: '3.1M+ Views | 9.3% CTR | 4.2x ROAS',
       type: 'Scroll-stopping Hook + UGC',
       videoSrc: 'assets/protein.mp4'
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'skincare': {
       title: 'UGC Serum Testimonial Ad',
-      brand: 'Radiance Botanicals',
+      brand: 'Ritual Botanicals',
       stats: '1.6M+ Views | 6.9% CTR | 2.4x ROAS',
       type: 'AI Voiceover & Multilingual',
       videoSrc: 'assets/serum.mp4'
