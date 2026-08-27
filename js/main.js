@@ -95,18 +95,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // Currency
+  // Currency Toggle Logic (INR vs USD)
   const currencyBtns = document.querySelectorAll('.currency-btn');
   const priceData = {
     INR: {
-      starter: { original: '₹3,500', offer: '₹2,999' },
-      growth: { original: '₹7,500', offer: '₹6,999' },
-      cinematic: { original: '₹15,000', offer: '₹9,999' }
+      starter: { offer: '₹2,999' },
+      growth: { offer: '₹6,999' },
+      cinematic: { offer: '₹9,999' },
+      custom: { offer: 'Custom Quote' }
     },
     USD: {
-      starter: { original: '$45', offer: '$39' },
-      growth: { original: '$95', offer: '$89' },
-      cinematic: { original: '$195', offer: '$129' }
+      starter: { offer: '$39' },
+      growth: { offer: '$89' },
+      cinematic: { offer: '$129' },
+      custom: { offer: 'Custom Quote' }
     }
   };
 
@@ -121,9 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.pricing-card[data-plan]').forEach(card => {
         const plan = card.dataset.plan;
         if (prices[plan]) {
-          const origEl = card.querySelector('[data-price-original]');
           const offerEl = card.querySelector('[data-price-offer]');
-          if (origEl) origEl.textContent = prices[plan].original;
           if (offerEl) offerEl.textContent = prices[plan].offer;
         }
       });
