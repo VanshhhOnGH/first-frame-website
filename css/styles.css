@@ -156,7 +156,11 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   transition: var(--transition-smooth);
   border: 1px solid transparent;
-  white-space: nowrap;
+  white-space: normal;
+  text-align: center;
+  max-width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
 }
 
 .btn-primary {
@@ -1262,6 +1266,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+  .contact-form-wrap {
+    padding: 24px 16px;
   }
   .testimonial-card {
     flex-direction: column;

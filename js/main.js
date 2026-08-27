@@ -59,36 +59,36 @@ document.addEventListener('DOMContentLoaded', () => {
   
   const portfolioData = {
     'cosmetic': {
-      title: 'Cosmetic Skincare Ad',
-      brand: 'elinor',
+      title: 'UGC Cosmetic Skincare Ad',
+      brand: 'Lumene Glow',
       stats: '2.3M+ Views | 8.7% CTR | 3.1x ROAS',
       type: 'AI UGC Avatar + Voice',
       videoSrc: 'assets/faceproduct.mp4'
     },
     'perfume': {
-      title: 'Vaseline Commercial',
-      brand: 'Vaseline',
+      title: 'Cinematic Luxury Perfume Commercial',
+      brand: 'Aura Noir',
       stats: '1.8M+ Views | 7.2% CTR | 2.6x ROAS',
       type: '3D Hyper-realistic Motion',
       videoSrc: 'assets/vaseline.mp4'
     },
     'supplement': {
-      title: 'High-Protein Supplement Ad',
-      brand: 'MaxProtein',
+      title: 'High-Energy UGC Supplement Ad',
+      brand: 'AlphaFit Nutrition',
       stats: '3.1M+ Views | 9.3% CTR | 4.2x ROAS',
       type: 'Scroll-stopping Hook + UGC',
       videoSrc: 'assets/protein.mp4'
     },
     'sneaker': {
-      title: 'Athletic Sneaker Commercial',
+      title: 'Cinematic Athletic Sneaker Commercial',
       brand: 'Apex Runner',
       stats: '2.7M+ Views | 8.1% CTR | 3.6x ROAS',
       type: 'Water Particle Simulation',
       videoSrc: 'assets/shoes.mp4'
     },
     'skincare': {
-      title: 'Serum Testimonial Ad',
-      brand: 'Ritual Botanicals',
+      title: 'UGC Serum Testimonial Ad',
+      brand: 'Radiance Botanicals',
       stats: '1.6M+ Views | 6.9% CTR | 2.4x ROAS',
       type: 'AI Voiceover & Multilingual',
       videoSrc: 'assets/serum.mp4'
@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(data => {
         submitBtn.style.background = '#22c55e';
         submitBtn.style.color = '#ffffff';
-        submitBtn.innerHTML = '✓ Message Sent to firstframeoff@gmail.com!';
+        submitBtn.innerHTML = '✓ Message Sent Successfully!<br><span style="font-size:0.75rem; opacity:0.9; font-weight:600; display:inline-block; margin-top:2px;">Sent to firstframeoff@gmail.com</span>';
         contactForm.reset();
 
         setTimeout(() => {
